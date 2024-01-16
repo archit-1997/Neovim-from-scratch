@@ -55,6 +55,7 @@ return packer.startup(function(use)
   use {
     "nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
+    commit = "842507a578704157e6c8f8f26befcb3b3a880efb",
   }
 
   --rainbow parenthesis
@@ -73,6 +74,9 @@ return packer.startup(function(use)
   --nvim tree
   use 'kyazdani42/nvim-web-devicons'
   use 'kyazdani42/nvim-tree.lua'
+
+  --toggle term
+  use "akinsho/toggleterm.nvim"
 
   --************************
 
