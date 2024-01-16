@@ -39,3 +39,6 @@ luac.out
 *.x86_64
 *.hex
 
+#we do not want to push the plugin folder
+#let's keep it system specific
+plugin
