@@ -8,7 +8,7 @@ Make sure to remove or move your current `nvim` directory
 git clone https://github.com/archit-1997/Neovim-from-scratch.git ~/.config/nvim
 ```
 
-Run `nvim` and wait for the plugins to be installed 
+Run `nvim` and wait for the plugins to be installed
 
 Each video will be associated with a branch so checkout the one you are interested in
 
@@ -43,7 +43,7 @@ Next we need to install python support (node is optional)
       ```
   - On Amazon Linux
       ```
-      still need to find out the solution
+      pip3 install pynvim
       ```
 
 - Neovim node support
@@ -52,6 +52,16 @@ Next we need to install python support (node is optional)
       npm i -g neovim
       ```
   - On Amazon Linux
+    - Install nvm
+      - https://github.com/nvm-sh/nvm
       ```
-      still need to find the solution
+      curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+      ```
+    - Install node 16
+    ```
+    nvm install 16
+    ```
+    - Run the below command
+      ```
+      npm i -g neovim
       ```
