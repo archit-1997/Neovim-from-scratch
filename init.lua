@@ -8,6 +8,7 @@ require "user.telescope"
 require "user.treesitter"
 require "user.autopairs"
 require "user.comment"
+require "user.gitsigns"
 
 --setting colorscheme
 vim.o.background = "dark" -- or "light" for light mode
