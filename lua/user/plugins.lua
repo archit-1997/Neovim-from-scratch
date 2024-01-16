@@ -58,9 +58,12 @@ return packer.startup(function(use)
     "nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
   }
-     --rainbow parenthesis
+ --rainbow parenthesis
   use "HiPhish/rainbow-delimiters.nvim"
 
+
+ --auto pairs
+  use "windwp/nvim-autopairs"
 
   --************************
 
