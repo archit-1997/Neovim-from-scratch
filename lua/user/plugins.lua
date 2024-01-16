@@ -3,8 +3,7 @@ local fn = vim.fn
 -- Automatically install packer
 local install_path = fn.stdpath "data" .. "/site/pack/packer/start/packer.nvim"
 if fn.empty(fn.glob(install_path)) > 0 then
-  PACKER_BOOTSTRAP = fn.system {
-    "git",
+  PACKER_BOOTSTRAP = fn.system { "git",
     "clone",
     "--depth",
     "1",
@@ -51,19 +50,22 @@ return packer.startup(function(use)
 
   --Telescope 
   use "nvim-telescope/telescope.nvim"
-  use 'nvim-telescope/telescope-media-files.nvim'
 
   --Tresitter 
   use {
     "nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
   }
- --rainbow parenthesis
+
+  --rainbow parenthesis
   use "HiPhish/rainbow-delimiters.nvim"
 
-
- --auto pairs
+  --auto pairs
   use "windwp/nvim-autopairs"
+
+  -- comment
+  use "numToStr/Comment.nvim"
+  use 'JoosepAlviste/nvim-ts-context-commentstring'
 
   --************************
 

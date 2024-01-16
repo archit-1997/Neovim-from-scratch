@@ -7,6 +7,7 @@ require "user.colorscheme"
 require "user.telescope"
 require "user.treesitter"
 require "user.autopairs"
+require "user.comment"
 
 --setting colorscheme
 vim.o.background = "dark" -- or "light" for light mode
