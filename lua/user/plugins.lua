@@ -49,9 +49,18 @@ return packer.startup(function(use)
   --Colorschemes
   use { "ellisonleao/gruvbox.nvim" }
 
-  --Telescope plugins
+  --Telescope 
   use "nvim-telescope/telescope.nvim"
   use 'nvim-telescope/telescope-media-files.nvim'
+
+  --Tresitter 
+  use {
+    "nvim-treesitter/nvim-treesitter",
+    run = ":TSUpdate",
+  }
+     --rainbow parenthesis
+  use "HiPhish/rainbow-delimiters.nvim"
+
 
   --************************
 
