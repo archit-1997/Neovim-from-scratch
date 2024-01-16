@@ -5,15 +5,12 @@
 Make sure to remove or move your current `nvim` directory
 
 ```
-git clone git@github.com:ChristianChiarulli/Neovim-from-scratch.git ~/.config/nvim
+git clone https://github.com/archit-1997/Neovim-from-scratch.git ~/.config/nvim
 ```
 
 Run `nvim` and wait for the plugins to be installed 
 
-**NOTE** (You will notice treesitter pulling in a bunch of parsers the next time you open Neovim) 
-
-
-each video will be associated with a branch so checkout the one you are interested in
+Each video will be associated with a branch so checkout the one you are interested in
 
 ## Get healthy
 
@@ -31,28 +28,30 @@ First we'll fix copy/paste
 
 - On mac `pbcopy` should be builtin
 
-- On Ubuntu
+- On Amazon Linux
 
   ```
-  sudo apt install xsel
-  ```
-
-- On Arch Linux
-
-  ```
-  sudo pacman -S xsel
+  still need to find out the solution
   ```
 
 Next we need to install python support (node is optional)
 
 - Neovim python support
-
-  ```
-  pip install pynvim
-  ```
+  - On Macos
+      ```
+      pip install pynvim
+      ```
+  - On Amazon Linux
+      ```
+      still need to find out the solution
+      ```
 
 - Neovim node support
-
-  ```
-  npm i -g neovim
-  ```
+  - On Macos
+      ```
+      npm i -g neovim
+      ```
+  - On Amazon Linux
+      ```
+      still need to find the solution
+      ```
