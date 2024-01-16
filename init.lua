@@ -9,7 +9,11 @@ require "user.treesitter"
 require "user.autopairs"
 require "user.comment"
 require "user.gitsigns"
+require "user.nvim-tree"
 
 --setting colorscheme
 vim.o.background = "dark" -- or "light" for light mode
 vim.cmd([[colorscheme gruvbox]])
+
+--enable nvim-tree 
+require'nvim-tree'.setup()

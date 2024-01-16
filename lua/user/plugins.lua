@@ -70,6 +70,10 @@ return packer.startup(function(use)
   -- git
   use "lewis6991/gitsigns.nvim"
 
+  --nvim tree
+  use 'kyazdani42/nvim-web-devicons'
+  use 'kyazdani42/nvim-tree.lua'
+
   --************************
 
   -- Automatically set up your configuration after cloning packer.nvim
