@@ -78,6 +78,9 @@ return packer.startup(function(use)
   --toggle term
   use "akinsho/toggleterm.nvim"
 
+  --cscope 
+  use "dhananjaylatkar/cscope_maps.nvim"
+
   --************************
 
   -- Automatically set up your configuration after cloning packer.nvim

@@ -11,6 +11,7 @@ require "user.comment"
 require "user.gitsigns"
 require "user.nvim-tree"
 require "user.toggleterm"
+require "user.cscope"
 
 --setting colorscheme
 vim.o.background = "dark" -- or "light" for light mode
