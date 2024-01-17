@@ -81,6 +81,9 @@ return packer.startup(function(use)
   --cscope 
   use "dhananjaylatkar/cscope_maps.nvim"
 
+  --indent
+  use "lukas-reineke/indent-blankline.nvim"
+
   --************************
 
   -- Automatically set up your configuration after cloning packer.nvim
