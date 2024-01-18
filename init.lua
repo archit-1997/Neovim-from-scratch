@@ -14,6 +14,7 @@ require "user.toggleterm"
 require "user.cscope"
 require "user.indent"
 require "user.bufferline"
+require "user.lualine"
 
 --setting colorscheme
 vim.o.background = "dark" -- or "light" for light mode

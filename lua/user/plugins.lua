@@ -90,6 +90,12 @@ return packer.startup(function(use)
     tag = "*"
   }
 
+  --lualine
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }
+
   --************************
 
   -- Automatically set up your configuration after cloning packer.nvim
