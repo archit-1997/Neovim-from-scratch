@@ -84,6 +84,12 @@ return packer.startup(function(use)
   --indent
   use "lukas-reineke/indent-blankline.nvim"
 
+  --bufferline
+  use{
+    "akinsho/bufferline.nvim",
+    tag = "*"
+  }
+
   --************************
 
   -- Automatically set up your configuration after cloning packer.nvim

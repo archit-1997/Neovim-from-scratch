@@ -13,6 +13,7 @@ require "user.nvim-tree"
 require "user.toggleterm"
 require "user.cscope"
 require "user.indent"
+require "user.bufferline"
 
 --setting colorscheme
 vim.o.background = "dark" -- or "light" for light mode
