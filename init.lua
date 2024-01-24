@@ -15,7 +15,7 @@ require "user.cscope"
 require "user.indent"
 require "user.bufferline"
 require "user.lualine"
-require "user.linter"
+--[[ require "user.linter" ]] --enable once I find a way to disable warnings
 
 --setting colorscheme
 vim.o.background = "dark" -- or "light" for light mode
